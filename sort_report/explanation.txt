@@ -1,0 +1,9 @@
+The subscript operator function took the longest time (35.10% of total run time) (2.51 seconds).
+The subscript operator is called each time an index of the vector needs to be accessed.
+The Bubble Sort function itself calls the subscript operator many times as it iterates through the indexes.
+The subscript operator is a bottleneck because of the sheer amount of calls that are made to the function throughout the program.
+
+The Bubble Sort Function is also somewhat of a bottleneck taking the second longest amount of time (19.58% of total run time) (1.40 seconds).
+It must iterate through all the indexes, check whether that value is greater than the one after, and if so, swap the values.
+It must iterate until it has reached the end of the indexes and swapped all values that need to be swapped.
+Even though it is only called once, it still takes up the second greatest amount of time.
