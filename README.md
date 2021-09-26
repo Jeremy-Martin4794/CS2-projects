@@ -6,7 +6,6 @@ The four bigger projects include:
 * **string** (implementing a custom string class and methods)
 * **assembler** (creating a program to give assembly code instructions for a given input)
 * **profiler** (using a tree data structure to implement a profiling program)
-All projects include extensive test case files.
     
   
 
